@@ -1,0 +1,125 @@
+
+{
+    "bikky_orders" : [
+        {
+            "header" : "1300 6th Ave, 10017",
+            "distance" : "1.3 mi",
+            "details" : [
+                {
+                    "label" : "Pickup Address",
+                    "value" : "1300 6th Ave, New York, NY 10017"
+                },
+                {
+                    "label" : "Pickup Phone",
+                    "value" : "+1 212-234-8988"
+                },
+                {
+                    "label" : "Customer Name",
+                    "value" : "Mary Jane"
+                },
+                {
+                    "label" : "Customer Phone",
+                    "value" : "+1 212-332-0900"
+                },
+                {
+                    "label" : "Customer Address",
+                    "value" : "2422 Broadway, New York, NY 10019"
+                },
+                {
+                    "label" : "Customer Email",
+                    "value" : "mary.jane@abc.com"
+                }
+            ]
+        },
+        {
+            "header" : "323 6th Ave, 10019",
+            "distance" : "1.35 mi",
+            "details" : [
+                {
+                    "label" : "Pickup Address",
+                    "value" : "323 6th Ave, New York, NY 10019"
+                },
+                {
+                    "label" : "Pickup Phone",
+                    "value" : "+1 212-332-9899"
+                },
+                {
+                    "label" : "Customer Name",
+                    "value" : "Bill Roberts"
+                },
+                {
+                    "label" : "Customer Phone",
+                    "value" : "+1 212-343-2345"
+                },
+                {
+                    "label" : "Customer Address",
+                    "value" : "145E 48th St, New York, NY 10019"
+                },
+                {
+                    "label" : "Customer Email",
+                    "value" : "ddr87@roberts.com"
+                }
+            ]
+        },
+        {
+            "header" : "245 South 3rd Ave",
+            "distance" : "1.37 mi",
+            "details" : [
+                {
+                    "label" : "Pickup Address",
+                    "value" : "245 South 3rd Ave, New York, NY 10018"
+                },
+                {
+                    "label" : "Pickup Phone",
+                    "value" : "+1 212-454-4343"
+                },
+                {
+                    "label" : "Customer Name",
+                    "value" : "Drake Jobs"
+                },
+                {
+                    "label" : "Customer Phone",
+                    "value" : "+1 212-777-4344"
+                },
+                {
+                    "label" : "Customer Address",
+                    "value" : "200 W 49th St, New York, NY 10019"
+                },
+                {
+                    "label" : "Customer Email",
+                    "value" : "drjobs@nbc.com"
+                }
+            ]
+        }, 
+        {
+            "header" : "1700 Broadway",
+            "distance" : "1.37 mi",
+            "details" : [
+                {
+                    "label" : "Pickup Address",
+                    "value" : "245 South 3rd Ave, New York, NY 10018"
+                },
+                {
+                    "label" : "Pickup Phone",
+                    "value" : "+1 212-454-4343"
+                },
+                {
+                    "label" : "Customer Name",
+                    "value" : "Drake Jobs"
+                },
+                {
+                    "label" : "Customer Phone",
+                    "value" : "+1 212-777-4344"
+                },
+                {
+                    "label" : "Customer Address",
+                    "value" : "200 W 49th St, New York, NY 10019"
+                },
+                {
+                    "label" : "Customer Email",
+                    "value" : "drjobs@nbc.com"
+                }
+            ]
+        }
+    ]
+}
