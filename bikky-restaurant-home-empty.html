@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Bikky Register Sender</title>
+    <title>Bootstrap 3, from LayoutIt!</title>
 
     <meta name="description" content="Source code generated using layoutit.com">
     <meta name="author" content="LayoutIt!">
@@ -21,10 +21,11 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="./bootstrap/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+
   </head>
   <body>
 
-<div class="container-fluid">
+    <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
 			<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
@@ -34,68 +35,67 @@
 						 <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 					</button> <a class="navbar-brand" href="#">Bikky</a>
 				</div>
-			</nav>
-			
-			
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-3">
-		</div>
-		<div class="col-md-6">
-			<div class="panel panel-default">
-			  <!-- Default panel contents -->
-			  <div class="panel-heading"><b>Register as Sender</b></div>
-					<form role="form" action="bikky-restaurant-home.html" style="padding: 10px;">
+				
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					
+					<form class="navbar-form navbar-left" role="search">
 						<div class="form-group">
-							 
-							<label for="senderName">
-								Name*
-							</label>
-							<input type="text" class="form-control" id="senderName">
-						</div>
-						<div class="form-group">
-							<label for="senderEmail">
-								Email*
-							</label>
-							<input type="email" class="form-control" id="senderEmail">
-						</div>
-						<div class="form-group">
-							<label for="senderPass">
-								Password*
-							</label>
-							<input type="password" class="form-control" id="senderPass">
-						</div>
-						<div class="form-group">
-							<label for="senderConfirmPass">
-								Confirm Password*
-							</label>
-							<input type="password" class="form-control" id="senderConfirmPass">
-						</div>
-						
-						
-						
-						
-						<center>
-						<a id="modal-327990" href="#modal-container-register" data-toggle="modal" type="submit" class="btn btn-default">
-							Register
-						</a>
-						<button type="reset" class="btn">	
-							Reset
+							<input type="text" class="form-control" placeholder="Name or Phone">
+						</div> 
+						<button type="submit" class="btn btn-default">
+							Search
 						</button>
-						</center>
 					</form>
+					
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a>Hello "{{ Name }}" !</a>
+						</li>
+						<li>
+							<a href="bikky-restaurant-history.html">History</a>
+						</li>
+						<li class="dropdown">
+							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">More<strong class="caret"></strong></a>
+							<ul class="dropdown-menu" role="menu">
+								<li>
+									<a href="#">Profile</a>
+								</li>
+								<li>
+									<a href="#">Another action</a>
+								</li>
+								<li>
+									<a href="#">Something else here</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="login.html">Logout</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
 				</div>
+				
+			</nav>
+
+			</div></div>
+	<div class="row">
+	<div class="col-md-3"></div>
+		<div class="col-md-6">
+			
+
+<div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading"><b>Live Orders</b></div>
+  <div class="panel-body">
+    <p align="center">Create a new order by clicking the big plus sign. <br><br><a href="enter-order.html"><image src="./images/plus_button_512.png" style="width: 45px; height:45px;"></image></a></p>
+  </div>
+			</div>
 		</div>
 		<div class="col-md-3">
-		</div>
 	</div>
-
-</div>
-
-
-
-<div class="modal fade" id="modal-container-register" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	
+<div class="modal fade" id="modal-container-327990" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
@@ -104,17 +104,19 @@
 					×
 				</button>
 				<h4 class="modal-title" id="myModalLabel">
-					Please check email
+					Joe M.
 				</h4>
 			</div>
 			<div class="modal-body">
-				An email is sent to {{ your email address }}. Please enter the confirmation code in the login page to complete registration process.  
+				Joe M. is on her way delivering food to Mary Jane at 33 Sutton Pl, New York NY 10017. Estimated time of arrival is 7:31 PM. 
+				<br><br>
+				<center><image src="./images/map.jpg" style="width: 75%;"></image>
 			</div>
 			<div class="modal-footer">
 				 
-				<center><form action="login.html"><button type="submit" class="btn btn-default">
+				<center><button type="button" class="btn btn-default" data-dismiss="modal">
 					Close
-				</button></form></center> 
+				</button></center> 
 				<!--button type="button" class="btn btn-primary">
 					Save changes
 				</button-->
@@ -123,6 +125,7 @@
 		
 	</div>
 	
+</div>
 </div>
   </body>
 </html>

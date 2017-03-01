@@ -49,7 +49,7 @@
 					
 					<ul class="nav navbar-nav navbar-right">
 						<li>
-							<a>Hello "Amma @ 51st" !</a>
+							<a>Hello "{{ Name }}" !</a>
 						</li>
 						<li>
 							<a href="#">History</a>
@@ -118,9 +118,16 @@
 							<label for="customerAddress">
 								Customer Delivery Address
 							</label>
-							<input type="address" class="form-control" id="customerAddress">
+							<input type="address" class="form-control" id="customerAddress" placeholder="eg., 400 Mulbery Ln, New York, NY 10020">
 						</div>
 						<div class="form-group">
+							 
+							<label for="receiptAmount">
+								Receipt Amount
+							</label>
+							<input type="address" class="form-control" id="receiptAmount" placeholder="Total $ Amount in Receipt">
+						</div>
+						<!--div class="form-group">
 							<label for="bikkyType">
 								Bikky Type
 							</label>
@@ -131,13 +138,13 @@
 							<label>
 								<input type="radio" class="radio" name="bikkyType" id="bikkyType" /> Walk
 							</label></div>
-						</div> 
+						</div--> 
 						<div class="form-group">
 							 
 							<label for="pickupTime">
 								Pickup Time
 							</label>
-							<input type="text" class="form-control" id="pickupTime">
+							<input type="text" class="form-control" id="pickupTime" placeholder="Pre-populated with 20 minutes ahead">
 						</div>
 						<center>
 						<button type="submit" class="btn btn-default">

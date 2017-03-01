@@ -49,7 +49,7 @@
 					
 					<ul class="nav navbar-nav navbar-right">
 						<li>
-							<a>Hello "Amma @ 51st" !</a>
+							<a>Hello "{{ Name }}" !</a>
 						</li>
 						<li>
 							<a href="bikky-restaurant-history.html">History</a>
@@ -92,22 +92,135 @@
   </div>
 			  
 
-  		<table class="table table-condensed table-hover" style="cursor: pointer;">
+  		<table class="table table-condensed table-hover">
 			<thead>
 				<tr>
 					<th>
-						Order
+						Click to see detailed information
 					</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
-					<td>
-						<a href="#demo" data-toggle="collapse" style="text-decoration: none;"><div style="width:100%;">Mary Jane</div></a>
+					<td class="danger">
+						<a href="#demo" data-toggle="collapse" style="text-decoration: none;"><div style="width:100%;"><h3 style="display: inline;">Gary Oldman</h3><div style="float: right; font-size: 10pt; color: #996666;">+1 348-878-5645</div></div></a>
 						  <div id="demo" class="collapse">
-						    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-						    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						    <table class="table table-condensed table-hover" style="cursor: pointer;">
+							    <tr><td>Order Time</td>							<td>7:10 PM</td></tr>
+							    <tr><td>Customer Name</td>						<td>Gary Oldman</td></tr>
+							    <tr><td>Customer Phone</td>						<td>+1 348-878-5645</td></tr>
+							    <tr><td>Pickup Time</td>						<td>7:40 PM</td></tr>
+							    <tr><td>Bikky Name</td>							<td></td></tr>
+							    <tr><td>Bikky Phone</td>						<td></td></tr>
+							    <tr><td colspan="2"><textarea class="form-control" disabled>Notes about the order: Call customer; don't ring bell. </textarea></td></tr>
+						    </table>
+						  </div>
+					</td>
+				</tr>
+				<tr>
+					<td class="danger">
+						<a href="#demo1" data-toggle="collapse" style="text-decoration: none;"><div style="width:100%;"><h3 style="display: inline;">Brad Hernden</h3><div style="float: right; font-size: 10pt; color: #996666;">+1 440-343-3249</div></div></a>
+						  <div id="demo1" class="collapse">
+						    <table class="table table-condensed table-hover" style="cursor: pointer;">
+							    <tr><td>Order Time</td>							<td>7:15 PM</td></tr>
+							    <tr><td>Customer Name</td>						<td>Brad Hernden</td></tr>
+							    <tr><td>Customer Phone</td>						<td>+1 440-343-3249</td></tr>
+							    <tr><td>Pickup Time</td>						<td>7:45 PM</td></tr>
+							    <tr><td>Bikky Name</td>							<td></td></tr>
+							    <tr><td>Bikky Phone</td>						<td></td></tr>
+						    </table>
+						  </div>
+					</td>
+				</tr>
+
+				<tr>
+					<td class="success">
+						<a href="#demo2" data-toggle="collapse" style="text-decoration: none;"><div style="width:100%;"><h3 style="display: inline;">Mary Jane</h3><div style="float: right; font-size: 10pt; color: #996666;">+1 909-889-3424</div></div></a>
+						  <div id="demo2" class="collapse">
+						    <table class="table table-condensed table-hover" style="cursor: pointer;">
+							    <tr><td>Order Time</td>							<td>7:01 PM</td></tr>
+							    <tr><td>Customer Name</td>						<td>Mary Jane</td></tr>
+							    <tr><td>Customer Phone</td>						<td>+1 909-889-3424</td></tr>
+							    <tr><td>Pickup Time</td>						<td>7:31 PM</td></tr>
+							    <tr><td>Bikky Name</td>							<td>Joe M.</td></tr>
+							    <tr><td>Bikky Phone</td>						<td>+1 232-443-2345</td></tr>
+						    </table>
+						  </div>
+					</td>
+				</tr>
+				<tr>
+					<td class="success">
+						<a href="#demo3" data-toggle="collapse" style="text-decoration: none;"><div style="width:100%;"><h3 style="display: inline;">Pete Jaackson</h3><div style="float: right; font-size: 10pt; color: #996666;">+1 443-567-3467</div></div></a>
+						  <div id="demo3" class="collapse">
+						    <table class="table table-condensed table-hover" style="cursor: pointer;">
+							    <tr><td>Order Time</td>							<td>7:04 PM</td></tr>
+							    <tr><td>Customer Name</td>						<td>Pete Jaackson</td></tr>
+							    <tr><td>Customer Phone</td>						<td>+1 443-567-3467</td></tr>
+							    <tr><td>Pickup Time</td>						<td>7:34 PM</td></tr>
+							    <tr><td>Bikky Name</td>							<td>Vic May</td></tr>
+							    <tr><td>Bikky Phone</td>						<td>+1 232-443-2345</td></tr>
+						    </table>
+						  </div>
+					</td>
+				</tr>
+				<tr>
+					<td class="success">
+						<a href="#demo4" data-toggle="collapse" style="text-decoration: none;"><div style="width:100%;"><h3 style="display: inline;">Dante Kirsten</h3><div style="float: right; font-size: 10pt; color: #996666;">+1 343-443-9876</div></div></a>
+						  <div id="demo4" class="collapse">
+						    <table class="table table-condensed table-hover" style="cursor: pointer;">
+							    <tr><td>Order Time</td>							<td>7:05 PM</td></tr>
+							    <tr><td>Customer Name</td>						<td>Dante Kirsten</td></tr>
+							    <tr><td>Customer Phone</td>						<td>+1 343-443-9876</td></tr>
+							    <tr><td>Pickup Time</td>						<td>7:35 PM</td></tr>
+							    <tr><td>Bikky Name</td>							<td>Andrew Marshall</td></tr>
+							    <tr><td>Bikky Phone</td>						<td>+1 212-342-5544</td></tr>
+						    </table>
+						  </div>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<a href="#demo5" data-toggle="collapse" style="text-decoration: none;"><div style="width:100%;"><h3 style="display: inline;">Ryan OJ</h3><div style="float: right; font-size: 10pt; color: #996666;">+1 545-878-5364</div></div></a>
+						  <div id="demo5" class="collapse">
+						    <table class="table table-condensed table-hover" style="cursor: pointer;">
+							    <tr><td>Order Time</td>							<td>7:17 PM</td></tr>
+							    <tr><td>Customer Name</td>						<td>Ryan OJ</td></tr>
+							    <tr><td>Customer Phone</td>						<td>+1 545-878-5364</td></tr>
+							    <tr><td>Pickup Time</td>						<td>7:47 PM</td></tr>
+							    <tr><td>Bikky Name</td>							<td>Tommy Boudreau</td></tr>
+							    <tr><td>Bikky Phone</td>						<td>+1 878-454-0987</td></tr>
+						    </table>
+						  </div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="#demo6" data-toggle="collapse" style="text-decoration: none;"><div style="width:100%;"><h3 style="display: inline;">Rocky Balboa</h3><div style="float: right; font-size: 10pt; color: #996666;">+1 787-454-7654</div></div></a>
+						  <div id="demo6" class="collapse">
+						    <table class="table table-condensed table-hover" style="cursor: pointer;">
+							    <tr><td>Order Time</td>							<td>7:20 PM</td></tr>
+							    <tr><td>Customer Name</td>						<td>Rocky Balboa</td></tr>
+							    <tr><td>Customer Phone</td>						<td>+1 787-454-7654</td></tr>
+							    <tr><td>Pickup Time</td>						<td>7:50 PM</td></tr>
+							    <tr><td>Bikky Name</td>							<td>Alviro G.</td></tr>
+							    <tr><td>Bikky Phone</td>						<td>+1 909-555-9090</td></tr>
+						    </table>
+						  </div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="#demo7" data-toggle="collapse" style="text-decoration: none;"><div style="width:100%;"><h3 style="display: inline;">Dante Kirsten</h3><div style="float: right; font-size: 10pt; color: #996666;">+1 343-443-9876</div></div></a>
+						  <div id="demo7" class="collapse">
+						    <table class="table table-condensed table-hover" style="cursor: pointer;">
+							    <tr><td>Order Time</td>							<td>7:22 PM</td></tr>
+							    <tr><td>Customer Name</td>						<td>Dante Kirsten</td></tr>
+							    <tr><td>Customer Phone</td>						<td>+1 343-443-9876</td></tr>
+							    <tr><td>Pickup Time</td>						<td>7:52 PM</td></tr>
+							    <tr><td>Bikky Name</td>							<td></td></tr>
+							    <tr><td>Bikky Phone</td>						<td></td></tr>
+						    </table>
 						  </div>
 					</td>
 				</tr>
@@ -117,7 +230,7 @@
 		</table>
 
 
-			<table class="table table-condensed table-hover" style="cursor: pointer;">
+			<!--table class="table table-condensed table-hover" style="cursor: pointer;">
 				<thead>
 					<tr>
 						<th>
@@ -302,7 +415,7 @@
 						</td>
 					</tr>
 				</tbody>
-			</table>
+			</table-->
 
 			</div>
 		</div>
