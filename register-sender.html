@@ -21,6 +21,15 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="./bootstrap/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+
+  <script src="./bootstrap/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" type="text/javascript">
+</script>
+  <script src="js/aws-cognito-sdk.min.js" type="text/javascript">
+</script>
+  <script src="js/amazon-cognito-identity.min.js" type="text/javascript">
+</script>
+  <script src="js/login.js" type="text/javascript">
+</script>
   </head>
   <body>
 
@@ -47,19 +56,20 @@
 			<div class="panel panel-default">
 			  <!-- Default panel contents -->
 			  <div class="panel-heading"><b>Register as Sender</b></div>
-					<form role="form" action="bikky-restaurant-home.html" style="padding: 10px;">
-						<div class="form-group">
-							 
-							<label for="senderName">
-								Name*
-							</label>
-							<input type="text" class="form-control" id="senderName">
-						</div>
+					<form role="form" id="registerForm" action="login.html" style="padding: 10px;">
+						
 						<div class="form-group">
 							<label for="senderEmail">
 								Email*
 							</label>
 							<input type="email" class="form-control" id="senderEmail">
+						</div>
+						<div class="form-group">
+							 
+							<label for="senderPhone">
+								Phone*
+							</label>
+							<input type="text" class="form-control" id="senderPhone">
 						</div>
 						<div class="form-group">
 							<label for="senderPass">
@@ -78,9 +88,10 @@
 						
 						
 						<center>
-						<a id="modal-327990" href="#modal-container-register" data-toggle="modal" type="submit" class="btn btn-default">
+						<!--a id="modal-327990" href="#modal-container-register" data-toggle="modal" type="button" class="btn btn-primary" onclick="register();">
 							Register
-						</a>
+						</a-->
+						<input type="button" onclick="register();" class="btn btn-primary" value="Register">&nbsp;
 						<button type="reset" class="btn">	
 							Reset
 						</button>
@@ -109,7 +120,7 @@
 				</h4>
 			</div>
 			<div class="modal-body">
-				An email is sent to {{ your email address }}. Please enter the confirmation code in the login page to complete registration process.  
+				An email is sent to {{ your email address }}. 
 			</div>
 			<div class="modal-footer">
 				 
